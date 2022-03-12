@@ -1,0 +1,31 @@
+[
+    {
+        "name" : "Catfolk",
+        "desc" : [
+            "The catfolk hail from the Kingdom of Egypt in northern Africa, with territory spanning across Western Europe. Daily life in their homeland is defined by veneration of their gods, particularly Thoth and his wife Ma’at; the former is credited with the creation of opium, a drug valued by the catfolk for use in religious rituals.",
+            "They are cunning, agile, and humble, frequently found as acrobats, monks, and freelancers throughout the Empire. Their ritual use of opium gives them a bad reputation outside their homeland for being burglars, fences, and assassins."
+        ],
+        "characteristics" : [
+            ["Dexterity"],
+            ["Power"]
+        ],
+        "skills" : [
+            ["Acrobatics", "Illusion", "Unarmed"],
+            ["Alchemy", "Archery", "Deception", "Light Armor", "Simple Weapons", "Mechanisms"]
+        ],
+        "abilities" : [
+            [
+                "Fearsome Roar",
+                "Once per day, you can cast a Magnitude 5 Demoralize spell. This spell does not have to be learned, does not consume Magic Points and cannot be used to create new spells, magic items or potions."
+            ],
+            [
+                "Glass-Eyed",
+                "You have Night Sight."
+            ],
+            [
+                "Sharp Claws",
+                "Catfolk can use either their STR or DEX for Unarmed combat damage."
+            ]
+        ]
+    }
+]
