@@ -10,6 +10,11 @@ const router = createRouter({
       component: HomeView
     },
     {
+      path: '/ogl',
+      name: 'ogl',
+      component: () => import('../views/LicenseView.vue')
+    },
+    {
       path: '/improvingStatistics',
       name: 'improvingStatistics',
       // route level code-splitting
@@ -24,13 +29,11 @@ const router = createRouter({
       path: '/characterGeneration',
       name: 'characterGeneration',
       component: () => import('../views/characterGeneration/characterGeneration.vue'),
-      children: [
-        {
-          path: 'characteristics',
-          name: 'characteristics',
-          component: () => import('../views/characterGeneration/characteristicsView.vue')
-        }
-      ]
+    },
+    {
+      path: '/characterGeneration/characteristics',
+      name: 'characteristics',
+      component: () => import('../views/characterGeneration/characteristicsView.vue')
     }
   ]
 })
